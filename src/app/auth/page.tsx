@@ -1,8 +1,9 @@
+import AuthForm from "@/app/components/AuthForm";
+
 export default function AuthPage() {
   return (
-    <div>
-      <h1>Sección de Autenticación</h1>
-      <p>Aquí iría el formulario de login/registro.</p>
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+      <AuthForm />
     </div>
   );
 }
